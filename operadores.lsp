@@ -4,3 +4,8 @@
 (/ 10 2) ; = 5 Divisão
 	(/ 3 2) ;= 1 Apenas valores inteiros
 	    (/ 3.0 2) ; = 1,5 -> na conta precisa de pelo menos 1 número real
+
+(setq num1 10)
+(setq num2 20)
+(setq valor (+ num1 num2))
+!valor ; = 30
