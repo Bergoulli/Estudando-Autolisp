@@ -1,3 +1,5 @@
+;RESOLUÇÃO
+
 ;1 	QUESTÃO (faça lista usando list)
 (setq lista1 (list (list 1 2 3 4 5) (list "a" "b" "c" "d" "e"))); A
 
