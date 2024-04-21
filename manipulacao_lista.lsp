@@ -12,3 +12,7 @@
 
 (setq lista1 (list 1 2))
 (setq valor (car(cdr lista1))); retirando apenas o valor 2, sem a forma de lista
+
+(setq lista2 (list 1 2 3 4 5 6 (list 7 8 9)))
+(car(cdr(cdr(cdr lista2)))); retira apenas o valor 4 da lista2
+(cadddr lista2); retira o valor 4 da lista2, basta coloca o numero de "d" igual ao numeros de crds usados iniciando com ca e terminado com r
