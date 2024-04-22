@@ -23,11 +23,11 @@
 (setq e (reverse lista)); E
 
 (setq lista1 (list "pato" "macaco" 12))
-(setq e (append lista1 lista)); F
+(setq f (append lista1 lista)); F
 
 (setq g (car(reverse lista))); G
-(setq h (nth 1 (member (list "a" "b" "c") lista))); H
-(setq i (nth 3 (member (list (list "mario" "amanda" "carlos") 20 25 30) lista))); I
+(setq h (nth 1 (nth 5 lista))); H
+(setq i (nth 0 (member (list (list "mario" "amanda" "carlos") 20 25 30) lista))); I
 (setq j (nth 0 (car(last lista)))); J
 
 
