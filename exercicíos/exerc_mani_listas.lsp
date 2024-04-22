@@ -12,3 +12,23 @@
 ;i) Usando apenas duas funções de manipulação e sem usar a função last e sem usar as funções que usou no exercício G pegue o ultimo elemento da lista
 ;j) Usando no máximo 3 comandos de manipulação ;diferentes extraia o valor “mario” da lista, não pode utilizar nem CAR nem CDR nem nenhuma fusão deles.
 
+; 1 QUESTÃO
+
+(setq lista (list 1 2 3 4 5 (list "a" "b" "c") 5 6 7 8 9 10 (list (list "mario" "amanda" "carlos") 20 25 30)))
+
+(setq a (length lista)); A
+(setq b (nth 4 lista)); B
+(setq c (member 10 lista)); C
+(setq d (last lista)); D
+(setq e (reverse lista)); E
+
+(setq lista1 (list "pato" "macaco" 12))
+(setq e (append lista1 lista)); F
+
+(setq g (car(reverse lista))); G
+(setq h (nth 1 (member (list "a" "b" "c") lista))); H
+(setq i (nth 3 (member (list (list "mario" "amanda" "carlos") 20 25 30) lista))); I
+(setq j (nth 0 (car(last lista)))); J
+
+
+
