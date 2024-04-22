@@ -1,0 +1,5 @@
+OBS: Boa parte dos comandos é porque utilizo AutoCAD 2022 Brazilian
+chprop -> altprop
+-layer -> -camada
+
+
