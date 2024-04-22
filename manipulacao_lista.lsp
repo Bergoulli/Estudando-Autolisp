@@ -4,6 +4,7 @@
 ; length -> dizer o numero de valores que tem na lista
 ; nth -> pega um valor da lista dizendo seu indexador n-1
 ; append -> junta listas em uma só lista retirando o formato sublista
+; member -> retorna o resto a partir do valor que estamos procurando em uma lista
 
 (setq lista (list "a" "b" "c" "carlos" "mateus" (list 1 "d" 2 "e")))
 
@@ -31,5 +32,11 @@
 (setq lista1 (list 1 2 3))
 (setq lista2 (list 4 5 6))
 (setq lista3 (list 7 8 9))
-(setq juntar (append lista1 lista2 lista3)); append -> junta listas em uma só lista retirando o formato sublista
+(setq juntar (append lista1 lista2 lista3)); append -> junta listas em uma só lista retirando o formato sublista (só recebe lista)
 	(setq juntar (append (list lista1) lista2 lista3)); gerei uma sublista para lista1
+
+(setq novalista (append lista (list 1))); o valor 1 não era lista mas forcei ele virar lista para o append e se tornar um valor sem sublista
+
+(setq encontrar (member "c" lista)); member -> retorna o resto a partir do valor que estamos procurando em lista, se não tiver "c" ele retorna nill e não procura em sublistas
+	(setq encontrar car((member (list 1 2 3) lista)))
+		(setq encontrar2 (member 2 encontrar))
