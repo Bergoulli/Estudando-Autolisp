@@ -1,1 +1,2 @@
 o botão enter em command é ""
+o botão para pegar o ultimo click do mouse para construção é "@"
