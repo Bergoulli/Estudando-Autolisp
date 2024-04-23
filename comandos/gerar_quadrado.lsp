@@ -1,0 +1,10 @@
+; gera um quadrado com 10 u de lado
+(defun c:quadrado()
+  (setq pt1 (getpoint "\nClique no primeiro ponto"))
+  (setq x (car pt1))
+  (setq y (car (cdr pt1)))
+  (setq pt2 (list (+ x 10) y))
+  (setq pt3 (list (+ x 10) (+ y 10)))
+  (setq pt4 (list x (+ y 10)))
+  (command "line" pt1 pt2 pt3 pt4 pt1 "")
+)
