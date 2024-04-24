@@ -10,7 +10,7 @@
 (defun c:divi()
   (initget 1)
   (setq n1 (getreal "\nDigite um numero"))
-  (initget 3); 1 + 2, juntou as duas formas da entrada de bites da tabela
+  (initget 3); 1 + 2, juntou as duas formas da entrada de bites da tabela (não aceita nem enter e nem 0)
   (setq n2 (getreal "\nDigite outro numero"))
   (setq resp (/ n1 n2))
 )
