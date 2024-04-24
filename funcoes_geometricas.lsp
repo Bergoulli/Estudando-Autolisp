@@ -1,5 +1,5 @@
 ;distance -> retorna o valor numerico da distancia
-;distance -> retorna o valor numerico do angulo em radiano
+;angle -> retorna o valor numerico do angulo em radiano
 
 (defun c:df()
   (setq pt1 (getpoint "\nClique em um ponto"))
