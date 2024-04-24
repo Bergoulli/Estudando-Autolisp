@@ -1,0 +1,5 @@
+(defun c:zw()
+  (setq pt1 (getpoint "\nClique no ponto desejado"))
+  (setq pt2 (getcorner pt1 "\nAbra a janela no local desejado"))
+  (command "zoom" pt1 pt2)
+)
